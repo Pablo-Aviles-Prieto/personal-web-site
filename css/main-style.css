@@ -1,13 +1,13 @@
 .main-card {
-  width: 800px;
-  background-color: rgba(32, 29, 29, 0.8);
+  width: 700px;
+  background-color: rgba(19, 18, 18, 0.8);
   box-shadow: 3px 5px 7px rgb(68, 67, 67);
   border-radius: 8px;
   text-align: center;
   padding: 45px 0;
   margin: 0 auto;
   position: relative;
-  top: 120px;
+  top: 200px;
 }
 
 .main-card h1 {
@@ -43,7 +43,7 @@
 }
 
 #main-section {
-  height: 800px;
+  height: 600px;
   width: auto;
   background-image: url("/images/webdevp.jpg");
   background-position: center;

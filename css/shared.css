@@ -9,15 +9,23 @@ header {
   padding: 15px 25px;
   position: absolute;
   width: 100%;
+  top: 0;
+  left: 0;
   box-sizing: border-box;
 }
 
 header a {
-  color: rgb(255, 251, 0);
+  color: rgb(255, 220, 0);
   text-decoration: none;
   font-size: 17px;
-  padding: 5px;
-  text-shadow: 2px 2px 2px rgba(0, 0, 0, 0.8)
+  padding: 5px 8px;
+  text-shadow: 1px 1px 2px rgba(0, 0, 0, 0.7);
+  border-radius: 6px;
+}
+
+header li a:hover {
+  color: rgb(77, 77,77);
+  background-color: rgb(255, 220, 0);
 }
 
 ul {
@@ -37,9 +45,14 @@ nav li {
 #page-logo a {
   padding: 10px;
   font-family: "Oleo Script", sans-serif;
-  color: rgb(245, 243, 160);
+  color: rgb(255, 220, 0);
   font-size: 50px;
   text-decoration: none;
   text-transform: initial;
   text-shadow: 2px 2px 2px rgb(185, 83, 0);
+}
+
+#page-logo a:hover {
+  color: rgb(245, 243, 50);
+  text-shadow: 3px 3px 3px rgb(145, 66, 2);
 }
