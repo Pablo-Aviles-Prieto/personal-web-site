@@ -51,7 +51,7 @@
 }
 
 #works-previews {
-  background-color: rgb(40, 23, 104);
+ background: linear-gradient(135deg, rgb(0, 60, 95), rgb(11, 55, 150));
 }
 
 #works-previews h2 {
@@ -61,7 +61,7 @@
   text-align: center;
   text-transform: uppercase;
   font-size: 30px;
-  color: rgb(59, 65, 64);
+  color: rgb(255, 210, 0);
 }
 
 #prevs-works {
@@ -69,6 +69,7 @@
   justify-content: center;
   width: 90%;
   margin: auto;
+  padding-bottom: 20px;
   /* margin-bottom: 40px; */
 }
 
@@ -82,6 +83,7 @@
   font-weight: bold;
   font-size: 19px;
   margin: 15px 0;
+  color: rgb(255, 210, 0);
 }
 
 .prevs-lists img {
