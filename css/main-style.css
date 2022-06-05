@@ -29,18 +29,21 @@
 
 .main-card a {
   text-decoration: none;
-  background-color: rgb(255, 251, 0);
+  background-color: rgb(255, 220, 0);
   padding: 12px 24px;
   color: black;
   font-size: 14px;
   font-weight: bold;
   border-radius: 8px;
-  box-shadow: 2px 4px 8px rgb(68, 67, 67);
-  margin-bottom: 0;
+  box-shadow: 2px 4px 8px rgb(41, 40, 39);
+}
+
+.main-card a:hover {
+    background-color: rgb(255, 250, 0);
 }
 
 #main-section {
-  height: 600px;
+  height: 800px;
   width: auto;
   background-image: url("/images/webdevp.jpg");
   background-position: center;
