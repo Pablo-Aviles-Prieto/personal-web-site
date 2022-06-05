@@ -39,13 +39,55 @@
 }
 
 .main-card a:hover {
-    background-color: rgb(255, 250, 0);
+  background-color: rgb(255, 250, 0);
 }
 
 #main-section {
-  height: 600px;
+  height: 700px;
   width: auto;
   background-image: url("/images/webdevp.jpg");
   background-position: center;
   background-size: cover;
+}
+
+#works-previews {
+  background-color: rgb(40, 23, 104);
+}
+
+#works-previews h2 {
+  margin: auto;
+  margin-bottom: 25px;
+  padding-top: 25px;
+  text-align: center;
+  text-transform: uppercase;
+  font-size: 30px;
+  color: rgb(59, 65, 64);
+}
+
+#prevs-works {
+  display: flex;
+  justify-content: center;
+  width: 90%;
+  margin: auto;
+  /* margin-bottom: 40px; */
+}
+
+.prevs-lists {
+  margin: 0 20px;
+}
+
+.prevs-lists p {
+  text-align: center;
+  text-transform: uppercase;
+  font-weight: bold;
+  font-size: 19px;
+  margin: 15px 0;
+}
+
+.prevs-lists img {
+  height: 250px;
+  width: 100%;
+  box-shadow: 2px 4px 8px rgb(69, 67, 67);
+  border-radius: 10px;
+  object-fit: cover;
 }
