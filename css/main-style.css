@@ -36,10 +36,12 @@
   font-weight: bold;
   border-radius: 8px;
   box-shadow: 2px 4px 8px rgb(41, 40, 39);
+  transition: all .7s ease;
 }
 
 .main-card a:hover {
   background-color: rgb(255, 250, 0);
+  padding: 14px 40px;
 }
 
 #main-section {
@@ -51,7 +53,7 @@
 }
 
 #works-previews {
- background: linear-gradient(135deg, rgb(0, 60, 95), rgb(11, 55, 150));
+  background: linear-gradient(135deg, rgb(0, 60, 95), rgb(11, 55, 150));
 }
 
 #works-previews h2 {
@@ -71,6 +73,14 @@
   margin: auto;
   padding-bottom: 20px;
   /* margin-bottom: 40px; */
+}
+
+#prevs-works img {
+  transition: transform 0.3s ease;
+}
+
+#prevs-works img:hover {
+  transform: scale(1.05);
 }
 
 .prevs-lists {
