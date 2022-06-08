@@ -5,9 +5,11 @@
   border-radius: 8px;
   text-align: center;
   padding: 45px 0;
-  margin: 0 auto;
-  position: relative;
-  top: -250px;
+  margin: 20 auto;
+  position: absolute;
+  top: 320px;
+  left: 50%;
+  transform: translate(-50%, 0);
 }
 
 .main-card h1 {
@@ -53,8 +55,9 @@
 } */
 
 #myVideoContainer {
-  height: 440px;
+  height: 740px;
   width: auto;
+  align-items: center;
 }
 
 #myVideo {
